@@ -153,7 +153,8 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
-.features-img img{
+
+.features-img img {
     margin-left: 90px;
 }
 
@@ -213,7 +214,7 @@ main {
     margin-top: 5px;
 }
 
-/* sponsors related sytles */
+/* sponsors related styles */
 .sponsors {
     text-align: center;
 }
@@ -237,6 +238,20 @@ main {
     height: 50px;
 }
 
+/* footer related styles */
+.footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+.footer-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* responsive media query */
 /* for small devices or mobile devices */
@@ -250,19 +265,20 @@ main {
     .teams-container,
     .facts-card-container,
     .sponsors-img-container,
-    .features
-     {
+    .features {
         flex-direction: column;
     }
 
-    .features-img img{
+    .features-img img {
         width: 100%;
         margin: 0px;
     }
-    .ten-years-badge{
+
+    .ten-years-badge {
         position: static;
         width: 250px;
     }
+
     .sponsors-img-container {
         align-items: center;
         /* ekhane kno align center dile middle e ashe? */
@@ -276,9 +292,11 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+
     .facts-description {
         width: 300px;
     }
+
     .teams-img-container {
         grid-template-columns: 1fr;
     }
@@ -309,8 +327,7 @@ main {
     nav,
     .teams-container,
     .sponsors-img-container,
-    .features 
-    {
+    .features {
         flex-direction: column;
     }
 
