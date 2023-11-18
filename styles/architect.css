@@ -5,7 +5,10 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
-
+.text-gray{
+    color: var(--Dark-03, #727272);
+    font-weight: 500px;
+}
 .btn-primary {
     color: #FFF;
     font-size: 20px;
@@ -15,6 +18,11 @@
     padding: 20px 25px;
     border: none;
     cursor: pointer;
+}
+.section-title {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
 }
 
 /* header related styles */
@@ -27,12 +35,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-title {
-    color: var(--Dark-01, #131313);
-    font-size: 45px;
-    font-weight: 700;
 }
 
 nav>ul {
@@ -62,12 +64,6 @@ nav a {
     color: var(--Dark-01, #131313);
     font-size: 64px;
     font-weight: 700;
-}
-
-.banner-description {
-    color: var(--Dark-03, #727272);
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .banner img {
@@ -103,11 +99,6 @@ main {
     font-size: 2.8rem;
 }
 
-.teams-content .quick-list {
-    color: var(--Dark-03, #727272);
-    font-weight: 500;
-}
-
 .teams-content .of-our {
     color: var(--Dark-01, #131313);
     font-weight: 700;
@@ -118,11 +109,7 @@ main {
     font-weight: 700;
 }
 
-.teams-description {
-    color: var(--Dark-03, #727272);
-    font-size: 16px;
-    font-weight: 400;
-}
+
 
 /* responsive media query */
 /* for small devices or mobile devices */
