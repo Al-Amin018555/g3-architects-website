@@ -113,10 +113,71 @@ main {
     font-weight: 700;
 }
 
+/* features related styles */
+.features {
+    display: flex;
+    gap: 140px;
+    margin-top: 130px;
+}
+
+.features-title {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features-description {
+    color: var(--Dark-03, #727272);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.features .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features .card-title {
+    color: var(--Dark-01, #131313);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features .card-description {
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+    width: 342px;
+}
+
+.batch-title {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.experience {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 /* facts section related styles */
 .facts-description {
     width: 542px;
 }
+
 .facts-card-container {
     display: flex;
     justify-content: space-around;
@@ -145,9 +206,10 @@ main {
 }
 
 /* sponsors related sytles */
-.sponsors{
+.sponsors {
     text-align: center;
 }
+
 .sponsors-description {
     color: var(--Dark-03, #727272);
     font-size: 16px;
@@ -155,12 +217,14 @@ main {
     margin: 25px auto;
     width: 542px;
 }
-.sponsors-img-container{
+
+.sponsors-img-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
 }
-.sponsors-img-container img{
+
+.sponsors-img-container img {
     width: 166.757px;
     height: 50px;
 }
@@ -177,18 +241,20 @@ main {
     nav,
     .teams-container,
     .facts-card-container,
-    .sponsors-img-container
-     {
+    .sponsors-img-container {
         flex-direction: column;
     }
-    .sponsors-img-container{
+
+    .sponsors-img-container {
         align-items: center;
         /* ekhane kno align center dile middle e ashe? */
         gap: 20px;
     }
-    .sponsors-description{
+
+    .sponsors-description {
         width: 300px;
     }
+
     .facts-card-container {
         gap: 20px;
     }
@@ -225,13 +291,15 @@ main {
     .sponsors-img-container {
         flex-direction: column;
     }
-    .sponsors-img-container{
+
+    .sponsors-img-container {
         /* justify-content: center;  */
         /* eta dile hoy na kno? */
         align-items: center;
         gap: 20px;
     }
-    .sponsors-description{
+
+    .sponsors-description {
         width: 400px;
     }
 }
