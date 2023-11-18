@@ -148,17 +148,21 @@ main {
     header {
         padding: 20px;
     }
-
     nav,
-    .teams-container {
+    .teams-container,
+    .facts-card-container {
         flex-direction: column;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 
     .teams-img-container {
         grid-template-columns: 1fr;
     }
 
-    .teams-content {
+    .teams-content,
+    .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -169,7 +173,14 @@ main {
     header {
         padding: 50px;
     }
-
+    .facts-card-container .card{
+        padding: 50px 5px;
+    }
+    .facts-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
     nav,
     .teams-container {
         flex-direction: column;
