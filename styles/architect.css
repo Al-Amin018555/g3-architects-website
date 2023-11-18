@@ -116,7 +116,7 @@ main {
 /* features related styles */
 .features {
     display: flex;
-    gap: 140px;
+    gap: 100px;
     margin-top: 130px;
 }
 
@@ -135,7 +135,7 @@ main {
 }
 
 .features .card {
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     background: #FFF;
@@ -153,12 +153,18 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
+.features-img img{
+    margin-left: 90px;
+}
 
 .ten-years-badge {
+    text-align: center;
     border-radius: 8px;
     background: #FF900E;
     padding: 40px;
     width: 342px;
+    position: relative;
+    bottom: 100px;
 }
 
 .batch-title {
@@ -171,6 +177,8 @@ main {
     color: #FFF;
     font-size: 25px;
     font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* facts section related styles */
@@ -241,10 +249,20 @@ main {
     nav,
     .teams-container,
     .facts-card-container,
-    .sponsors-img-container {
+    .sponsors-img-container,
+    .features
+     {
         flex-direction: column;
     }
 
+    .features-img img{
+        width: 100%;
+        margin: 0px;
+    }
+    .ten-years-badge{
+        position: static;
+        width: 250px;
+    }
     .sponsors-img-container {
         align-items: center;
         /* ekhane kno align center dile middle e ashe? */
@@ -258,7 +276,9 @@ main {
     .facts-card-container {
         gap: 20px;
     }
-
+    .facts-description {
+        width: 300px;
+    }
     .teams-img-container {
         grid-template-columns: 1fr;
     }
@@ -288,7 +308,9 @@ main {
 
     nav,
     .teams-container,
-    .sponsors-img-container {
+    .sponsors-img-container,
+    .features 
+    {
         flex-direction: column;
     }
 
