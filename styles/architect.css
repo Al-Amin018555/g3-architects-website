@@ -220,6 +220,19 @@ main {
 .sponsors-img-container img {
     width: 160px;
 }
+/* footer related styles */
+footer{
+    background-color: #FFF4E7;
+    padding: 30px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .footer-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #424242;
+}
 
 /* responsive media query styles */
 /* mobile devices */
